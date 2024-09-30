@@ -1,0 +1,11 @@
+<div class="step-text">
+<p></p>
+<p></p><div class="alert alert-danger">Hold on! This problem requires knowledge about <strong>advanced input</strong> using a <code class="java">scanner</code> and <code class="java">if...else</code> <strong>control statements</strong> you might not have learned yet. If you're feeling adventurous, gear up and give it a shot! If not, you can postpone it and return to it after learning about the above concepts.</div>
+<p>Imagine you're developing a social media platform. Users can post status updates, but each status update has a limit of <code class="java">140</code> characters.</p>
+<p>Given the diverse user base, status updates can include emojis and characters from various languages. Here are a couple of status examples:</p>
+<pre><code class="language-no-highlight">I love programming in Go! 😃🚀</code></pre>
+<pre><code class="language-no-highlight">我喜欢用Go编程！🐼</code></pre>
+<p>Your task is to ensure that each status update adheres to the character limit of <code class="java">140</code>, considering all types of characters used in the status.</p>
+<p>Finally, if the status is within the <code class="java">140</code> character limit, you should print the message: <code class="java">"Status is within the 140 character limit"</code> If it exceeds the limit, print: <code class="java">"Status exceeds the 140 character limit"</code></p>
+<p><strong>Tip:</strong> You can use the <code class="java">utf8.RuneCountInString()</code> function to count the number of characters in the <code class="java">status</code>.</p><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">I love programming in Go! 😃🚀</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Status is within the 140 character limit</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">Starting my #100DaysOfCode with the Go programming language. Day 1 was all about basics. Day 2 will be about runes and strings. Loving this journey so far! 🚀</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Status exceeds the 140 character limit</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+</div>
